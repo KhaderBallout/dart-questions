@@ -8,10 +8,10 @@ void main() {
 }
 
 
-// I Create a stack as a list.
-// Then, I added the passed list value using add function to my Stack.
-// Then, I delete the last element from the list with is removeLast.
-// So, using LIFO approach I reverse my list order.
+// I Created a stack as a list.
+// Then, I added the element of the list to the stack using add function.
+// Then, I removed the last element from the stack using removeLast.
+// So, using LIFO principle I reverse my list order.
 void reverseList(List<dynamic> myList ) {
   List<dynamic> stack = [];
 

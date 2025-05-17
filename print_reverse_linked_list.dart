@@ -15,7 +15,7 @@ printInReverse(node1);
 
 }
 
-// In this function I used recursion methodology to print the linked list
+// This function uses recursion to print the element of the linked list
 void printInReverse<T>(Node<T>? node) {
   if (node == null) return;
   printInReverse(node.next);

@@ -12,12 +12,12 @@ void main() {
 }
 
 
-// I Create a stack as a list.
-// Then iterate on the String value.
-// Then if I found '(' value in the String, I will add it to the stack.
-// Then if I found ) value in the string, I will delete it from the stack.
-// Note that any other Char will be skip.
-// if we have an empty stack, so it's valid, if not it's not valid
+// I Created a stack as a list.
+// Then iterated over each char in the String.
+// If the Char is '(' , I pushed it onto the stack.
+// If the character is ')', I tried to pop from the stack.
+// If the stack is empty when encountering ')', the string is invalid.
+// Note: All other Char are ignored.
 bool checkParentheses(String myString){
   List<String> stack = [];
 

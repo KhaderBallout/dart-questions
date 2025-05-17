@@ -14,7 +14,7 @@ node4.next = node5;
 print(findMiddle(node1)?.value);
 
 }
-// using 2 pointer approach
+// using 2 pointer approach (slow, fast)
 // https://www.geeksforgeeks.org/two-pointer-technique-in-a-linked-list/
 Node<T>? findMiddle<T>(Node<T>? head) {
   Node<T>? slow = head;
